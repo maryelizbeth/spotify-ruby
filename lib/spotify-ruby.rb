@@ -6,9 +6,9 @@ require File.expand_path('../spotify/client', __FILE__)
 module Spotify
   extend Configuration
 
-  # Alias for Instagram::Client.new
+  # Alias for Spotify::Client.new
   #
-  # @return [Instagram::Client]
+  # @return [Spotify::Client]
   def self.client(options={})
     Spotify::Client.new(options)
   end
